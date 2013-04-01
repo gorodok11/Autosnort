@@ -778,7 +778,7 @@ while true; do
 	case $ui_choice in
 		1)
 		echo "You have chosen to install Snort Report."
-		bash snortreport.sh
+		bash snortreport-ubuntu.sh
 		if [ $? != 0 ]; then
 			echo "It looks like the installation did not go as according to plan."
 			echo "Verify you have network connectiviy and try again"
